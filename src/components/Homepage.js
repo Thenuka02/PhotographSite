@@ -15,7 +15,7 @@ const Homepage =()=>{
             <div className={styles.clm1}>
             <h1>ACME PHOTOGRAPHY</h1>
             <h2>Beautiful Natural Photography</h2>
-            <button>View Work</button>
+            <button className={styles.Btn}>View Work</button>
             </div>  
             </div> 
            
@@ -31,15 +31,15 @@ const Homepage =()=>{
                <h2>Our Work</h2>
         </div>
 
-           <div>
-               <img src={secondImage}/>
+           <div className={styles.SectionA}>
+               <img src={secondImage} />
            </div>
 
             <div className={styles.Text2} >
                 <h3>Photo One </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
             </div>
-           <div>
+           <div className={styles.SectionA}>
                <img src={thirdImage}/>
            </div>
 
@@ -48,7 +48,7 @@ const Homepage =()=>{
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
             </div>
 
-           <div>
+           <div className={styles.SectionA}>
                <img src={fourthImage}/>
            </div>
 
@@ -57,7 +57,7 @@ const Homepage =()=>{
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
             </div>
 
-           <div>
+           <div className={styles.SectionA}>
                <img src={fivthImage}/>
            </div>
 
@@ -66,7 +66,7 @@ const Homepage =()=>{
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
             </div>
 
-           <div>
+           <div className={styles.SectionA}>
                <img src={sixthImage}/>
            </div>
 

@@ -1,9 +1,58 @@
+.Main{
+  max-width: 900px;
+  margin: auto;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SectionA img{
+  max-width: 900px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clm1{
+ justify-content: center;
+ align-items: center;
+ padding-right: 2rem;
+ padding-left: 2rem;
+ height: 50vh;
+}
+
+.clm1 h1{
+ font-family: 'Roboto Condensed', sans-serif;
+ text-align: center;
+ font-weight: 400;
+ font-size: 2.5rem;
+ text-transform: uppercase;
+ margin-top: 5rem;
+}
+
+.clm1 h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color: #888;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 1rem;
+}
+
+.Btn{
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 50px;
+  color: #333;
+  padding: 10px;
+}
 
 .Text1{
     padding: 1.5rem;
     text-align: center;
     background: #333;
     color: #fff;
+    
     
 }
 
@@ -13,6 +62,11 @@
     display: inline-block;
     padding-right: 1rem;
     padding-left: 1rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .Text2 h3{
@@ -21,6 +75,7 @@
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+    
 }
 
 .clm1{
@@ -70,18 +125,18 @@
   .left {
     float: left;
     overflow: hidden;
-width: 50%;
-height: 100vh;
-opacity: 1;
+    width: 50%;
+    height: 100vh;
+    opacity: 1;
   }
   
   /* Control the right side */
   .right {
     right: 0;
     overflow: hidden;
-width: 50%;
-height: 100vh;
-opacity: 1;
+    width: 50%;
+    height: 100vh;
+    opacity: 1;
    
   }
 
@@ -90,3 +145,5 @@ opacity: 1;
     background-color: #eee;
    
   }
+
+  
