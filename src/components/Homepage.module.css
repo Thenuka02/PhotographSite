@@ -1,0 +1,92 @@
+
+.Text1{
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    
+}
+
+.Text1 h2{
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.Text2 h3{
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.clm1{
+    /* 
+    flex: 0 1 40vw;
+    height: 100vh;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 50%; */
+    /* background-color: #fff;
+    display: flex;
+    float: left;
+    width: 50%;
+    height: 100vh; */
+    
+    /* justify-content:center; */
+    /* align-items: center;
+    text-align: center; */
+}
+
+/* .clm1{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+} */
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    float: left;
+    overflow: hidden;
+width: 50%;
+height: 100vh;
+opacity: 1;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    overflow: hidden;
+width: 50%;
+height: 100vh;
+opacity: 1;
+   
+  }
+
+  .footer{
+    text-align: center;
+    background-color: #eee;
+   
+  }
