@@ -9,6 +9,7 @@ import sixthImage from '../image/photo6.jpg';
 
 const Homepage =()=>{
     return(
+        <div>
         <div className={styles.Main}>
         <div>
            <div className={styles.split, styles.left }>
@@ -74,14 +75,16 @@ const Homepage =()=>{
                 <h3>Photo One </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
             </div>
+        </div>
 
-            <div className={styles.footer}>
+        <div className={styles.footer}>
                 <h3> Get In Touch</h3>
                 <p>Email or call us to set up a consult</p> 
-                <p>Email: contact@acmephotos.test</p>
-                <p>Phone: (617) 555-5555</p>
+                <p>Email: <b>contact@acmephotos.test</b></p>
+                <p>Phone: <b>(617) 555-5555 </b></p>
+         
             </div>
-        </div>
+            </div>
     )
 }
 
